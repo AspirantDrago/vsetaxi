@@ -1,0 +1,331 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto');
+
+/* DO NOT TOUCH ITS */
+/* DO NOT TOUCH ITS */
+/* DO NOT TOUCH ITS */
+
+* {
+	padding: 0;
+	margin: 0;
+	font-family: 'Open Sans'
+}
+
+body {
+	background: #f2f2f2;
+	-webkit-font-smoothing: antialiased;
+	-webkit-overflow-scrolling: touch;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+
+.header-first .col-sm-12 {
+	background: #333;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Roboto"
+	font-weight: 150;
+	color: #222;
+}
+
+p {
+	line-height: 14px;
+	margin-bottom: 12px;
+}
+
+a {
+	color: #F7E703;
+}
+
+a:hover, a:focus {
+	color: #D01616;
+	text-decoration: none;
+	outline: 0;
+}
+
+/* Стили для .navbar */
+
+.navbar {
+	background: #FDD404;
+	border-color: #000;
+	height: 110px;
+	position: fixed;
+	top: 0;
+	z-index: 10;
+	width: 100%;
+}
+/* ------------------------------------------------------------------------- */
+
+ /* Отдельный класс для централизации (мб будет ещё где-то использоваться)*/
+
+.centred {
+	text-align: center;
+}
+
+.centred_big_text {
+	text-align: center;
+	font: bold 28px 'Open Sans';
+}
+
+.text_left {
+	text-align: left;
+}
+
+.text_right {
+	text-align: right;
+}
+/*---------------------------------------------------------------------------*/
+
+/* Стиль для кнопки "Заказать такси" */
+.navbar-light .navbar-nav .active > .nav-link {
+	font-family: "Roboto"
+	padding: 2px 5px;
+	background: #000;	
+	margin-right: 20px;
+	border-radius: 7px;
+	color: #fff;
+	-o-transition:color 0.5s ease;
+	-o-transition:background 0.5s ease;
+	-moz-transition:color 0.5s ease;
+	-moz-transition:background 0.5s ease;
+	-webkit-transition:color 0.5s ease;
+	-webkit-transition:background 0.5s ease;
+
+}
+
+.navbar-light .navbar-nav .active > .nav-link:hover {
+	color: #000;
+	background: #fff;
+	-o-transition:color 0.5s ease;
+	-o-transition:background 0.5s ease;
+	-moz-transition:color 0.5s ease;
+	-moz-transition:background 0.5s ease;
+	-webkit-transition:color 0.5s ease;
+	-webkit-transition:background 0.5s ease;
+}
+ /* Стили для остальных кнопок на навбаре */
+
+.navbar-nav {
+	font-size: 20px;
+	margin-right: 30px;
+}
+
+.logotype {
+	width: 256px;
+	height: 128px;
+}
+
+@media (max-width: 576px) {
+
+	.navbar {
+	background: #FDD404;
+	border-color: #000;
+	height: 200px;
+	z-index: 999; /* Чтобы показывалось поверх других блоков */
+}
+
+	.navbar-nav {
+		background: #FDD404;
+		text-align: center; 
+	}
+
+
+	.navbar-light .navbar-nav .active > .nav-link {
+		text-align: center;
+
+	}
+}
+
+@media (max-width: 978px) {
+	.navbar {
+	background: #FDD404;
+	border-color: #000;
+	height: 200px;
+	z-index: 999; /* Чтобы показывалось поверх других блоков */
+}
+
+	.navbar-nav {
+		background: #FDD404;
+		text-align: center;
+		border-radius: px;
+	}
+
+}
+content {
+	align-content: left;
+}
+/* Стили для форм */
+
+.container {
+	width: 100%;
+}
+.container-fluid {
+	position: relative;
+	top: 50px;
+	width: 100%;
+}
+
+.text_forms {
+	margin-left: 5px;
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+
+#forms_padding {
+	width: 20px;
+	height: 20px;
+	padding-right: 100px;
+}
+
+.content {
+	position: relative;
+	margin-top: 80px;
+	min-height: 100%;
+}
+
+.autorizate {
+	display: inline-block;
+	background: #dc3545;
+	border-radius: 4px;
+	text-align: center;
+	vertical-align: middle;
+	border: 1px solid transparent;
+	padding: .375rem .75rem;
+	font-size: 1rem;
+	line-height: 1.5;
+	border-radius: .25rem;
+	transition: color .15s;
+	margin-left: 100px;
+	margin-bottom: 50px;
+}
+
+#back_map {
+	width: 100%;
+	height: 100%;
+}
+
+.opacity_map_over {
+	background-color: #FDD404;
+}
+
+article {
+	position: relative;
+	top: 30px;
+}
+
+.services {
+	position: relative;
+	margin-left: 50px;
+	margin-top: 20px;
+}
+
+.right_content {
+	position: relative;
+	height: 200px;
+	background: #000;
+}
+
+.zakaz {
+	display: inline-block;
+	background: #007bff;
+	border-radius: 4px;
+	text-align: center;
+	vertical-align: middle;
+	border: 1px solid transparent;
+	padding: .375rem .75rem;
+	font-size: 1rem;
+	line-height: 1.5;
+	border-radius: .25rem;
+	transition: color .15s;
+	margin-left: 100px;
+	margin-bottom: 50px;
+	margin-top: 50px;
+}
+
+.yandex_map {
+	height: 500px;
+	width: 100%;
+}
+
+.col-md-6 {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+#inlineFormCustomSelect {
+	padding: 5px 5px;
+}
+
+
+/* футер */
+
+footer {
+	margin-top: 27px;
+}
+.context-dark, .bg-gray-dark, .bg-primary {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.footer-classic a, .footer-classic a:focus, .footer-classic a:active {
+    color: #ffffff;
+}
+
+.nav-list li {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.nav-list li a:hover:before {
+    margin-left: 0;
+    opacity: 1;
+    visibility: visible;
+}
+
+ul, ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.social-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 55px;
+    font: 900 22px , Roboto, "Helvetica Neue", Arial, sans-serif;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.5);
+}
+.social-container .col {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+.nav-list li a:before {
+    content: "\f14f";
+    font: 400 21px/1 "Roboto";
+    color: #4d6de6;
+    display: inline-block;
+    vertical-align: baseline;
+    margin-left: -28px;
+    margin-right: 7px;
+    opacity: 0;
+    visibility: hidden;
+    transition: .22s ease;
+}
+
+.footer_text {
+	position: relative;
+	margin-top: 10px;
+}
+
+.logo_taxi {
+	margin-left: 60px;
+}
+
+table td, th {
+	height: 30px;
+	vertical-align: center;
+	text-align: center;
+
+}
